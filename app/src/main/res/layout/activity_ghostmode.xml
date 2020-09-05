@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/purpleback"
+    tools:context=".Classicmodeactivity">
+
+    <TextView
+        android:id="@+id/gameTitleTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"
+        android:text="TIC-TAC-TOE"
+        android:textColor="#00ffff"
+        android:layout_marginTop="12dp"
+        android:fontFamily="sans-serif-medium"
+        android:textSize="42dp" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/gameTitleTextView"
+        android:gravity="center"
+        android:layout_centerHorizontal="true"
+        android:text="Ghost Mode ON"
+        android:textSize="20dp"
+        android:textColor="#9A000000"/>
+
+    <Button
+        android:id="@+id/classic_one"
+        style="@style/TextAppearance.AppCompat.Button"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/gameTitleTextView"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="200dp"
+        android:background="#000000"
+        android:textColor="#00ffff"
+        android:maxWidth="300dp"
+        android:paddingLeft="25dp"
+        android:paddingRight="25dp"
+        android:paddingBottom="20dp"
+        android:paddingTop="20dp"
+        android:text="1 vs 1"
+        android:textAllCaps="false"
+        android:textSize="32dp" />
+
+    <Button
+        android:id="@+id/classic_ai"
+        style="@style/TextAppearance.AppCompat.Button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/classic_one"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="20dp"
+        android:background="#000000"
+        android:textColor="#00ffff"
+        android:paddingLeft="25dp"
+        android:paddingRight="25dp"
+        android:paddingBottom="20dp"
+        android:paddingTop="20dp"
+        android:text="Play vs AI"
+        android:textAllCaps="false"
+        android:textSize="32dp" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerInParent="true"
+        android:text="Developed by Aniket"
+        android:textColor="#ffffff"
+        android:textSize="16sp"
+        android:textColorHint="#00ffff"
+        android:backgroundTint="#00ffff"
+        android:foregroundTint="#00ffff"
+        android:paddingBottom="10dp" />
+</RelativeLayout>

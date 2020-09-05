@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.gameconnect3">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/icecream"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/icecream"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".ghostmodeai">
+            <intent-filter>
+                <action android:name=".ghostmodeai" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".ghostmodeone" >
+            <intent-filter>
+                <action android:name=".ghostmodeone" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".ghostmode" >
+            <intent-filter>
+                <action android:name=".ghostmode" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+
+        <activity android:name=".Classicactivityghost">
+            <intent-filter>
+                <action android:name=".Classicactivityghost" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Classicactivityone">
+            <intent-filter>
+                <action android:name=".Classicactivityone" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Classicmodeactivity">
+            <intent-filter>
+                <action android:name=".Classicmodeactivity" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Normal">
+            <intent-filter>
+                <action android:name=".Normal" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Ghost">
+            <intent-filter>
+                <action android:name=".Ghost" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Computer">
+            <intent-filter>
+                <action android:name=".Computer" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

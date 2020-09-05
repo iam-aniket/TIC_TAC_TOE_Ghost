@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/blueback"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/gameTitleTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"
+        android:text="TIC TAC TOE"
+        android:textColor="#ffff00"
+        android:layout_marginTop="12dp"
+        android:textSize="42dp" />
+
+    <Button
+        android:id="@+id/normalModeButton"
+        style="@style/TextAppearance.AppCompat.Button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/gameTitleTextView"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="200dp"
+        android:background="#ffff00"
+        android:maxWidth="300dp"
+        android:paddingLeft="25dp"
+        android:paddingRight="25dp"
+        android:paddingBottom="20dp"
+        android:paddingTop="20dp"
+        android:text="Classic Mode"
+        android:textAllCaps="false"
+        android:textSize="32dp" />
+
+    <Button
+        android:id="@+id/ghostModeButton"
+        style="@style/TextAppearance.AppCompat.Button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/normalModeButton"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="20dp"
+        android:background="#000000"
+        android:maxWidth="300dp"
+        android:textColor="#00ffff"
+        android:paddingLeft="25dp"
+        android:paddingRight="25dp"
+        android:paddingBottom="20dp"
+        android:paddingTop="20dp"
+        android:text="Ghost Mode"
+        android:textAllCaps="false"
+        android:textSize="32dp" />
+    <Button
+        android:id="@+id/computerAI"
+        style="@style/TextAppearance.AppCompat.Button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/ghostModeButton"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="20dp"
+        android:background="#ffff00"
+        android:maxWidth="300dp"
+        android:paddingLeft="25dp"
+        android:paddingRight="25dp"
+        android:paddingBottom="20dp"
+        android:paddingTop="20dp"
+        android:text="Coming Soon"
+        android:textAllCaps="false"
+        android:textSize="32dp" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerInParent="true"
+        android:text="Developed by Aniket"
+        android:textColor="#ffffff"
+        android:textSize="16sp"
+        android:textColorHint="#00ffff"
+        android:backgroundTint="#00ffff"
+        android:foregroundTint="#00ffff"
+        android:paddingBottom="10dp" />
+</RelativeLayout>
