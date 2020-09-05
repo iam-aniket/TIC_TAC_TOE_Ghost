@@ -11,8 +11,5 @@ Version 2.0 of this project with further 5x5 tiles and other modes are in develo
 
 IMAGES added below with Material UI
 
-![Screenshot_2020-09-05-20-27-02-19_ac6cafe9deee86f26463a473fd605a99](https://user-images.githubusercontent.com/63105008/92313889-7573ce00-efee-11ea-8a05-efad27703325.jpg)
-
-![Screenshot_2020-09-05-20-27-06-07_ac6cafe9deee86f26463a473fd605a99](https://user-images.githubusercontent.com/63105008/92313894-802e6300-efee-11ea-80a8-79010d991f85.jpg)
-
+![Img1](https://user-images.githubusercontent.com/63105008/92314024-dd76e400-efef-11ea-8b51-0f0601fc2f5a.jpg)
 
